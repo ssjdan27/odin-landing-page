@@ -4,7 +4,8 @@ body {
 }
 
 img {
-    width: 100px;
+    width: 125px;
+    border: 5px solid blue;
 }
 
 .top-container {
@@ -75,6 +76,64 @@ ul {
     color: #E5E7EB;
 }
 
-.button {
+.second-container {
+    display: flex;
+    border: 10px solid red;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    border: 5px solid pink;
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 3px solid saddlebrown;
+}
+
+.third-container {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.text-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.testimonial {
+    justify-self: flex-end;
+}
+
+.fourth-container {
+    display: flex;
+    border: 10px solid black;
+}
+
+.action-box {
+    display: flex;
+}
+
+.text-block {
 
 }
