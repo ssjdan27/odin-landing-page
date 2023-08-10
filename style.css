@@ -1,11 +1,12 @@
 body {
     display: flex;
     flex-direction: column;
+    gap: 75px;
 }
 
 img {
-    width: 125px;
-    border: 5px solid blue;
+    width: 100px;
+    height: 100px;
 }
 
 .top-container {
@@ -78,7 +79,6 @@ ul {
 
 .second-container {
     display: flex;
-    border: 10px solid red;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -87,14 +87,22 @@ ul {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
-    border: 5px solid pink;
+    text-align: center;
 }
 
 .images-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1000px;
     margin: 0 auto;
+    flex: 1;
+    gap: 20px;
+}
+
+.cat-row {
+    width: 200px;
+    height: 200px;
 }
 
 .image-container {
@@ -102,7 +110,6 @@ ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border: 3px solid saddlebrown;
 }
 
 .third-container {
@@ -119,21 +126,22 @@ ul {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    margin: 100px;
 }
 
 .testimonial {
-    justify-self: flex-end;
+    text-align: center;
 }
 
 .fourth-container {
     display: flex;
     border: 10px solid black;
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 50px;
 }
 
 .action-box {
     display: flex;
 }
 
-.text-block {
-
-}
