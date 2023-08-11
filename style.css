@@ -24,6 +24,7 @@ img {
 
 .cat-logo {
     width: 75px;
+    height: auto;
 }
 
 .header-links {
@@ -63,7 +64,14 @@ ul {
     justify-content: center;
     align-items: center;
     flex-basis: 50%;
-    max-width: 50%;
+    max-width: 100%;
+    width: 1000px;
+}
+
+.cat-pic img
+{
+    width: 250px;
+    height: 300px;
 }
 
 .big-text {
@@ -135,6 +143,8 @@ ul {
 
 .fourth-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     border: 10px solid black;
     background-color: #3882F6;
     margin: 100px;
@@ -143,5 +153,39 @@ ul {
 
 .action-box {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.text-block {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.button-block {
+    border: 5px solid pink;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 75px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.image-container img {
+    border-radius: 25px;
+    border: 2px solid lightblue;
+    padding: 2px;
+    width: 200px;
+    height: 150px;
+}
