@@ -158,18 +158,21 @@ ul {
 
 .fourth-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    margin: 100px;
+    margin: 100px auto;
     padding: 50px;
+    width: auto;
+    gap: 100px;
 }
 
 .action-box {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    gap: 50px;
+    align-items: flex-start;
 }
 
 .text-block {
@@ -177,6 +180,7 @@ ul {
     padding-right: 20px;
     color: #E5E7EB;
     font-size: 18px;
+    overflow-wrap: break-word;
 }
 
 .button-block {
@@ -193,6 +197,7 @@ ul {
     align-items: center;
     width: auto;
     height: 75px;
+    flex-shrink: 0;
 }
 
 button {
